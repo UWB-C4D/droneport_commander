@@ -1,0 +1,205 @@
+{
+    "fileType": "Plan",
+    "geoFence": {
+        "circles": [
+        ],
+        "polygons": [
+            {
+                "inclusion": true,
+                "polygon": [
+                    [
+                        49.72741981142854,
+                        13.350148915169257
+                    ],
+                    [
+                        49.7275540691615,
+                        13.35423329092717
+                    ],
+                    [
+                        49.726294766710986,
+                        13.354264060259652
+                    ],
+                    [
+                        49.72601132591794,
+                        13.350433531584883
+                    ]
+                ],
+                "version": 1
+            },
+            {
+                "inclusion": true,
+                "polygon": [
+                    [
+                        49.728418723034416,
+                        13.348571263795378
+                    ],
+                    [
+                        49.72844358509612,
+                        13.355478980973771
+                    ],
+                    [
+                        49.725559501120365,
+                        13.355832828400395
+                    ],
+                    [
+                        49.72532578336418,
+                        13.348978957566771
+                    ],
+                    [
+                        49.72700653708368,
+                        13.348471263426148
+                    ]
+                ],
+                "version": 1
+            }
+        ],
+        "version": 2
+    },
+    "groundStation": "QGroundControl",
+    "mission": {
+        "cruiseSpeed": 15,
+        "firmwareType": 12,
+        "globalPlanAltitudeMode": 1,
+        "hoverSpeed": 5,
+        "items": [
+            {
+                "autoContinue": true,
+                "command": 530,
+                "doJumpId": 1,
+                "frame": 2,
+                "params": [
+                    0,
+                    2,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "type": "SimpleItem"
+            },
+            {
+                "AMSLAltAboveTerrain": null,
+                "Altitude": 50,
+                "AltitudeMode": 1,
+                "autoContinue": true,
+                "command": 22,
+                "doJumpId": 2,
+                "frame": 3,
+                "params": [
+                    15,
+                    0,
+                    0,
+                    null,
+                    49.7264679,
+                    13.3508748,
+                    50
+                ],
+                "type": "SimpleItem"
+            },
+            {
+                "CameraCalc": {
+                    "AdjustedFootprintFrontal": 16.44230769230769,
+                    "AdjustedFootprintSide": 21.923076923076923,
+                    "CameraName": "Canon S100 PowerShot",
+                    "DistanceToSurface": 50,
+                    "DistanceToSurfaceRelative": true,
+                    "FixedOrientation": false,
+                    "FocalLength": 5.2,
+                    "FrontalOverlap": 70,
+                    "ImageDensity": 1.8269230769230769,
+                    "ImageHeight": 3000,
+                    "ImageWidth": 4000,
+                    "Landscape": true,
+                    "MinTriggerInterval": 0,
+                    "SensorHeight": 5.7,
+                    "SensorWidth": 7.6,
+                    "SideOverlap": 70,
+                    "ValueSetIsDistance": true,
+                    "version": 1
+                },
+                "EntranceAltitude": 50,
+                "GimbalPitch": 0,
+                "Layers": 4,
+                "ScanBottomAlt": 50,
+                "StartFromTop": true,
+                "StructureHeight": 100,
+                "complexItemType": "StructureScan",
+                "polygon": [
+                    [
+                        49.72718755398284,
+                        13.35139119621087
+                    ],
+                    [
+                        49.72685599722454,
+                        13.35108525327422
+                    ],
+                    [
+                        49.7266291412941,
+                        13.351490177765157
+                    ],
+                    [
+                        49.726198693796796,
+                        13.35158915928929
+                    ],
+                    [
+                        49.726181243147195,
+                        13.35212905861053
+                    ],
+                    [
+                        49.72622196132955,
+                        13.35277693775987
+                    ],
+                    [
+                        49.72653607188652,
+                        13.35282192936998
+                    ],
+                    [
+                        49.72712938629191,
+                        13.352866920980063
+                    ],
+                    [
+                        49.727263171870995,
+                        13.352390009937096
+                    ]
+                ],
+                "type": "ComplexItem",
+                "version": 3
+            },
+            {
+                "autoContinue": true,
+                "command": 20,
+                "doJumpId": 55,
+                "frame": 2,
+                "params": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "type": "SimpleItem"
+            }
+        ],
+        "plannedHomePosition": [
+            49.7264679,
+            13.3508748,
+            345
+        ],
+        "vehicleType": 2,
+        "version": 2
+    },
+    "rallyPoints": {
+        "points": [
+            [
+                49.72690708,
+                13.35326034,
+                0
+            ]
+        ],
+        "version": 2
+    },
+    "version": 1
+}
